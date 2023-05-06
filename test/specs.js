@@ -2,6 +2,7 @@ const chai = require("chai");
 const expect = chai.expect;
 const { isFive, isOdd, myRange } = require("../funcs");
 
+//Testing isFive(num) function
 describe("isFive(num)", () => {
   it("should return true if the num is 5 otherwise false", () => {
     const num1 = 5;
